@@ -13,4 +13,4 @@ Employees as handlers can handle incoming request and if current employer is alr
 Before coding I just decided how this library will be used.
 Client create the instance of functionality which route interactions/requests. 
 Client passes incoming interaction to router. Interaction must be handled by one of employer in defined chain of employees order and can be handled by anyone in that chain.
-It looks like chain of responsibility design pattern so I prepared first simple abstractions, first integration test and then processed to implement all requirements.
+It looks like chain of responsibility design pattern so I prepared first simple abstractions, first tests and then processed to implement all requirements.
